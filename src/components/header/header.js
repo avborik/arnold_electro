@@ -3,14 +3,17 @@ import style from './header.module.css'
 import { Link } from 'react-router-dom';
 
 
-//import SideNav from './Sidenav/sidenav';
+import Nav from './nav/nav';
 
 const Header = (props) => {
     
 
     return (
         <header >
-           header
+            
+           <div className="logo-wrapper"><h1 className="logo-text">Arnold electronics</h1></div>
+           <Nav/>
+           
         </header>
     )
 }

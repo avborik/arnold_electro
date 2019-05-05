@@ -6,7 +6,12 @@ import {CURRENT_YEAR} from '../../config';
 
 const footer = () => (
         
-    <div>footer</div>
+    <div>footer
+        <div className={styles.right}>
+        &copy;Arnold electronics {CURRENT_YEAR}, All rights reserved.
+            </div>
+    </div>
+
     )
 
 export default footer;
