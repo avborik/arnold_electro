@@ -1,3 +1,8 @@
 .img_main{
-   padding-left: 30%;
+   padding-left: 13%;
+   height: 100rem;
+}
+.home_container {
+   height: auto;
+   padding-bottom: 1%
 }

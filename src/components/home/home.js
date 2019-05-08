@@ -1,12 +1,14 @@
 import React from 'react';
 
+import SlideShow from '../Widgets/Slider/slider';
+
 import styles from './home.module.css'
 
 const Home = () =>{
     return(
-        <div>
+        <div className={styles.home_container}>
             Home Page
-            <div className={styles.img_main}><img src="images/car.jpg" /></div>
+            <SlideShow/>
             
         </div>
     )

@@ -1,6 +1,5 @@
 import React from 'react';
-import style from './header.module.css'
-import { Link } from 'react-router-dom';
+import styles from './header.module.css'
 
 
 import Nav from './nav/nav';
@@ -11,9 +10,11 @@ const Header = (props) => {
     return (
         <header >
             
-           <div className="logo-wrapper"><h1 className="logo-text">Arnold electronics</h1></div>
-           <Nav/>
+           <div className="container" className={styles.logo}>
+           <h1 className={styles.logo_text}>Arnold electronics</h1>
            
+           <Nav/>
+           </div>
         </header>
     )
 }

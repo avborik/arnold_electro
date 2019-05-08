@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Truck = () => {
+const Forklift = () => {
     return (
         <div>
-        this is Truck page.
+        this is  Forklift page.
         The content will be soon!!
 </div>
       
     )
 }
-export default Truck;
+export default Forklift;

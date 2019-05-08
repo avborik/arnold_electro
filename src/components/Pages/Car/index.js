@@ -1,11 +1,13 @@
 import React from 'react';
 
-const Navigation = () => {
+const Car = () => {
     return (
         <div>
-        Cars page
+            <div><img src="images/car.png" /></div>
+        this is  Cars page.
+        The content will be soon!!
 </div>
       
     )
 }
-export default Navigation;
+export default Car;

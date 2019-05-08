@@ -1,0 +1,29 @@
+.footer{
+    background-color: #343A40;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.title{
+    color: aliceblue;
+}
+.footer_content{
+    color: aliceblue;
+}
+.links{
+    color: aliceblue;
+}
+.link{
+    color: aliceblue;
+}
+.copy{
+    color: aliceblue;
+}
+
+.copy_link:link{
+    color: grey;
+    font-size: 22px;
+}
+.copy_link:visited{
+    color: aliceblue;
+    font-size: 22px;
+}
